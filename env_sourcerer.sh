@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Are you sure you want to source $1 [y/n]"
+echo "Are you sure you want to source $1 ? [y/n]"
 read CONFIRM
 
 if [[ $CONFIRM != "y" ]] then
